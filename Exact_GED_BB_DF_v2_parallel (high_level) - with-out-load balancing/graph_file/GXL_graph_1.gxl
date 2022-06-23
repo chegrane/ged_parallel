@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<gxl>
+<graph id="sampletest150-mod5_image12.bmp" edgemode="undirected">
+<node id="0">
+<attr name="x"><int>199</int></attr>
+<attr name="y"><int>325</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="1">
+<attr name="x"><int>154</int></attr>
+<attr name="y"><int>290</int></attr>
+<attr name="type"><string>intersection</string></attr>
+</node>
+<node id="2">
+<attr name="x"><int>162</int></attr>
+<attr name="y"><int>163</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="3">
+<attr name="x"><int>148</int></attr>
+<attr name="y"><int>324</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="4">
+<attr name="x"><int>385</int></attr>
+<attr name="y"><int>154</int></attr>
+<attr name="type"><string>endpoint</string></attr>
+</node>
+<node id="6">
+<attr name="x"><int>446</int></attr>
+<attr name="y"><int>256</int></attr>
+<attr name="type"><string>endpoint</string></attr>
+</node>
+<node id="8">
+<attr name="x"><int>388</int></attr>
+<attr name="y"><int>271</int></attr>
+<attr name="type"><string>intersection</string></attr>
+</node>
+<node id="9">
+<attr name="x"><int>365</int></attr>
+<attr name="y"><int>241</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="10">
+<attr name="x"><int>71</int></attr>
+<attr name="y"><int>282</int></attr>
+<attr name="type"><string>endpoint</string></attr>
+</node>
+<node id="12">
+<attr name="x"><int>359</int></attr>
+<attr name="y"><int>189</int></attr>
+<attr name="type"><string>intersection</string></attr>
+</node>
+<node id="13">
+<attr name="x"><int>344</int></attr>
+<attr name="y"><int>180</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="14">
+<attr name="x"><int>377</int></attr>
+<attr name="y"><int>197</int></attr>
+<attr name="type"><string>corner</string></attr>
+</node>
+<node id="15">
+<attr name="x"><int>180</int></attr>
+<attr name="y"><int>336</int></attr>
+<attr name="type"><string>intersection</string></attr>
+</node>
+<node id="16">
+<attr name="x"><int>353</int></attr>
+<attr name="y"><int>170</int></attr>
+<attr name="type"><string>intersection</string></attr>
+</node>
+<edge from="0" to="15">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-.52</string></attr>
+</edge>
+<edge from="0" to="13">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-.79</string></attr>
+</edge>
+<edge from="1" to="10">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>.10</string></attr>
+</edge>
+<edge from="1" to="3">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-1.40</string></attr>
+</edge>
+<edge from="1" to="2">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-1.51</string></attr>
+</edge>
+<edge from="3" to="15">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>.36</string></attr>
+</edge>
+<edge from="4" to="16">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-.46</string></attr>
+</edge>
+<edge from="6" to="8">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-.25</string></attr>
+</edge>
+<edge from="8" to="9">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>.92</string></attr>
+</edge>
+<edge from="9" to="14">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>-1.30</string></attr>
+</edge>
+<edge from="12" to="13">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>.54</string></attr>
+</edge>
+<edge from="12" to="16">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>1.26</string></attr>
+</edge>
+<edge from="12" to="14">
+<attr name="frequency"><int>1</int></attr>
+<attr name="type0"><string>line</string></attr>
+<attr name="angle0"><string>.42</string></attr>
+</edge>
+</graph>
+</gxl>
