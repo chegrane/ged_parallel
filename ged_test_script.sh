@@ -4,20 +4,21 @@
 # set_1 = 2, 4, 1, 1
 # set_2 = 2, 4, 1, 2
 # set_3 = 6, 2, 3, 1
-setting="set_1"
+setting=$2   # input the setting number as s1, s2, s3
+
 
 # check setting
-if [ $setting == "set_1" ]; then
+if [ $setting == "s1" ]; then
     c_node_sub=2
     c_node_del_ins=4
     c_edge_sub=1
     c_edge_del_ins=1
-elif [ $setting == "set_2" ]; then
+elif [ $setting == "s2" ]; then
     c_node_sub=2
     c_node_del_ins=4
     c_edge_sub=1
     c_edge_del_ins=2
-elif [ $setting == "set_3" ]; then
+elif [ $setting == "s3" ]; then
     c_node_sub=6
     c_node_del_ins=2
     c_edge_sub=3
@@ -27,8 +28,8 @@ else
     exit 1
 fi
 
-exe_jar_file="Exact_GED_BB_DF_high_level_with_load_balancing_120.jar"
-amount_RunTime_Seconds=100  # this is not important, because it is hard coded for now dirctly in java
+exe_jar_file="Exact_GED_BB_DF_high_level_with_load_balancing.jar"
+amount_RunTime_Seconds=$3  # this is not important, because it is hard coded for now dirctly in java
 NB_threads=20
 
 
@@ -36,7 +37,7 @@ NB_threads=20
 dataset_name=$1
 
 dir_path="/home/ichegrane/GED_datasets/TUDataset/$dataset_name/gxl"
-root_directory_output="Result_TUDataset_GED_parallel_sh/"${dataset_name}
+root_directory_output="Result_TUDataset_GED_parallel_t120_sh/"${dataset_name}
 path_output=$root_directory_output/"test_${dataset_name}_${setting}.csv"
 
 
