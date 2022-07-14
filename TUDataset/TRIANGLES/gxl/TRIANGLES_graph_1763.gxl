@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_1763" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="26118">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26119">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26120">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26121">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26122">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26123">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26124">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26125">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26126">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26127">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26128">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="26129">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26130">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="26131">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26132">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26133">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26134">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26135">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="26136">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="26137">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<edge from="26118" to="26124">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26119" to="26120">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26121" to="26123">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26121" to="26129">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26123" to="26121">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26124" to="26118">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26125" to="26123">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26125" to="26133">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26128" to="26129">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26128" to="26135">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26129" to="26125">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26129" to="26128">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26129" to="26137">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26130" to="26128">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26130" to="26136">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26131" to="26137">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26133" to="26125">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26135" to="26128">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26136" to="26130">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="26137" to="26129">
+<attr name="label"><int>0</int> </attr>
+</edge>
+</graph>
+</gxl>

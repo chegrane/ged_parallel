@@ -559,8 +559,8 @@ public class Path {
             g_cost += vertex_Cost;
             g_cost += edges_Implied_Cost;
 
-            g_cost_PLUS_h_cost = g_cost + h();
-            // g_cost_PLUS_h_cost = g_cost; // use only g_cost, because h() take lot off times.
+            //g_cost_PLUS_h_cost = g_cost + h();
+            g_cost_PLUS_h_cost = g_cost; // use only g_cost, because h() take lot off times.
 
             return true;
 

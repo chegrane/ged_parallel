@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_45" edgeids="true" edgemode="undirected">
+<attr name="label"><int>14</int> </attr>
+<node id="3352">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3353">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3354">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3355">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3356">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3357">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3358">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3359">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3360">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3361">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3362">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3363">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3364">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3365">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3366">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3367">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3368">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3369">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3370">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3371">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3372">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3373">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3374">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3375">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3376">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3377">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3378">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3379">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3380">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3381">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3382">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3383">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3384">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3385">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3386">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3387">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3388">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3389">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3390">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3391">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3392">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3393">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3394">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3395">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3396">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3397">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3398">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3399">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3400">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3401">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3402">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3403">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3404">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3405">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3406">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3407">
+<attr name="label"><int>19</int> </attr>
+</node>
+<node id="3408">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3409">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3410">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3411">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3412">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3413">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3414">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3415">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3416">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3417">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3418">
+<attr name="label"><int>20</int> </attr>
+</node>
+<node id="3419">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3420">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="3421">
+<attr name="label"><int>20</int> </attr>
+</node>
+<edge from="3352" to="3360">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3352" to="3367">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3353" to="3363">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3354" to="3364">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3356" to="3358">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3356" to="3359">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3357" to="3373">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3358" to="3356">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3358" to="3359">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3358" to="3366">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3358" to="3369">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3359" to="3357">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3360" to="3352">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3360" to="3364">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3360" to="3365">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3360" to="3368">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3361" to="3370">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3362" to="3372">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3363" to="3362">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3363" to="3367">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3363" to="3371">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3364" to="3354">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3364" to="3355">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3364" to="3360">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3364" to="3377">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3364" to="3380">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3365" to="3368">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3366" to="3357">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3366" to="3358">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3366" to="3373">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3366" to="3384">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3366" to="3387">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3367" to="3352">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3367" to="3353">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3367" to="3363">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3367" to="3378">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3367" to="3381">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3368" to="3360">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3368" to="3365">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3368" to="3367">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3368" to="3374">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3368" to="3386">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3369" to="3366">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3369" to="3379">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3370" to="3361">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3370" to="3364">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3370" to="3376">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3372" to="3362">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3372" to="3371">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3372" to="3381">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3373" to="3372">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3374" to="3368">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3374" to="3378">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3375" to="3370">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3375" to="3382">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3376" to="3375">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3376" to="3377">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3377" to="3370">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3377" to="3376">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3377" to="3380">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3377" to="3382">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3378" to="3367">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3378" to="3381">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3378" to="3385">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3378" to="3386">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3379" to="3366">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3379" to="3369">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3379" to="3401">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3380" to="3364">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3380" to="3368">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3380" to="3383">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3380" to="3390">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3381" to="3373">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3381" to="3387">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3381" to="3389">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3382" to="3377">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3382" to="3400">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3383" to="3391">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3385" to="3378">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3385" to="3386">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3385" to="3393">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3386" to="3374">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3386" to="3380">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3386" to="3390">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3386" to="3399">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3387" to="3366">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3387" to="3388">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3387" to="3398">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3387" to="3402">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3388" to="3384">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3388" to="3387">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3388" to="3401">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3389" to="3378">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3389" to="3381">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3389" to="3385">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3389" to="3395">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3390" to="3383">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3390" to="3400">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3391" to="3382">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3393" to="3389">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3393" to="3395">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3393" to="3396">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3393" to="3397">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3394" to="3400">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3381">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3392">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3393">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3398">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3416">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3395" to="3419">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3396" to="3412">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3397" to="3385">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3397" to="3393">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3397" to="3396">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3397" to="3409">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3397" to="3419">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3398" to="3395">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3398" to="3404">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3399" to="3386">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3399" to="3397">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3382">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3390">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3391">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3394">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3399">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3407">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3408">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3400" to="3411">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3401" to="3402">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3401" to="3410">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3401" to="3420">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3402" to="3387">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3402" to="3388">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3402" to="3406">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3402" to="3416">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3405" to="3398">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3405" to="3416">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3406" to="3387">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3407" to="3400">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3407" to="3418">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3408" to="3394">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3408" to="3403">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3408" to="3411">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3408" to="3415">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3410" to="3401">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3410" to="3420">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3411" to="3400">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3411" to="3407">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3411" to="3408">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3411" to="3414">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3412" to="3416">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3412" to="3419">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3413" to="3412">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3414" to="3415">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3414" to="3418">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3414" to="3421">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3415" to="3411">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3395">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3398">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3402">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3404">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3405">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3406">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3413">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3416" to="3417">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3417" to="3416">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3418" to="3407">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3418" to="3409">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3418" to="3414">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3419" to="3396">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3419" to="3397">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3419" to="3412">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="3420" to="3402">
+<attr name="label"><int>0</int> </attr>
+</edge>
+</graph>
+</gxl>

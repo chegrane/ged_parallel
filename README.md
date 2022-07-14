@@ -1,2 +1,3 @@
-# ged_parallel
- Solving graph edit distance (ged) in parallel.
+# **ged_parallel** : Solving Graph Edit Distance (ged) in parallel.
+
+

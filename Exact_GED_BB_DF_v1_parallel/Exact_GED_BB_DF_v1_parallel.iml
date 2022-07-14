@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_parallel_k_level_v21" level="project" />
+    <orderEntry type="library" name="Compact_Exact_GED_AStar_BitSet_Tree" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_iterative1" level="project" />
+    <orderEntry type="library" name="TEST_Compact_Exact_GED_AStar_BitSet_Tree" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF" level="project" />
+    <orderEntry type="library" name="lib6" level="project" />
+    <orderEntry type="library" name="lib8" level="project" />
+    <orderEntry type="library" name="lib1" level="project" />
+    <orderEntry type="library" name="lib5" level="project" />
+    <orderEntry type="library" name="lib3" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_high_level_withload_balancing" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="TEST_Exact_GED_Parallel_BB_SW_jar" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_high_level_witout_load_balancing" level="project" />
+    <orderEntry type="library" name="lib4" level="project" />
+    <orderEntry type="library" name="lib7" level="project" />
+    <orderEntry type="library" name="lib2" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_iterative" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_parallel_multiple_wp" level="project" />
+    <orderEntry type="library" name="gxl" level="project" />
+    <orderEntry type="library" name="jgrapht-core-1.0.1" level="project" />
+    <orderEntry type="library" name="Exact_GED_BB_DF_KL" level="project" />
+  </component>
+</module>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_26" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="441">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="442">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="443">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="444">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="445">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="446">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="447">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="448">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="449">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="450">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="451">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="452">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="453">
+<attr name="label"><int>5</int> </attr>
+</node>
+<edge from="442" to="441">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="443" to="442">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="444" to="443">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="445" to="444">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="446" to="445">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="446" to="441">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="447" to="446">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="448" to="447">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="449" to="447">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="450" to="444">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="451" to="450">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="452" to="450">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="453" to="443">
+<attr name="label"><int>1</int> </attr>
+</edge>
+</graph>
+</gxl>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_95" edgeids="true" edgemode="undirected">
+<attr name="label"><int>0</int> </attr>
+<node id="1975">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1.842765</float> </attr>
+<attr name="attr_1"><float> -1.339877</float> </attr>
+<attr name="attr_2"><float> -0.352675</float> </attr>
+<attr name="attr_3"><float> 59.719387</float> </attr>
+<attr name="attr_4"><float> 13.79385</float> </attr>
+<attr name="attr_5"><float> 12.012756</float> </attr>
+</node>
+<node id="1976">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1.192801</float> </attr>
+<attr name="attr_1"><float> 1.284124</float> </attr>
+<attr name="attr_2"><float> -0.851087</float> </attr>
+<attr name="attr_3"><float> 58.802351</float> </attr>
+<attr name="attr_4"><float> 21.666851</float> </attr>
+<attr name="attr_5"><float> -40.876992</float> </attr>
+</node>
+<node id="1977">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>2.860077</float> </attr>
+<attr name="attr_1"><float> -0.477253</float> </attr>
+<attr name="attr_2"><float> -0.943972</float> </attr>
+<attr name="attr_3"><float> -46.726244</float> </attr>
+<attr name="attr_4"><float> -17.186642</float> </attr>
+<attr name="attr_5"><float> 7.720428</float> </attr>
+</node>
+<node id="1978">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>2.564244</float> </attr>
+<attr name="attr_1"><float> 0.856585</float> </attr>
+<attr name="attr_2"><float> -1.237804</float> </attr>
+<attr name="attr_3"><float> -43.058614</float> </attr>
+<attr name="attr_4"><float> -13.74714</float> </attr>
+<attr name="attr_5"><float> 0.46981</float> </attr>
+</node>
+<node id="1979">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-2.991052</float> </attr>
+<attr name="attr_1"><float> 2.051654</float> </attr>
+<attr name="attr_2"><float> 0.449908</float> </attr>
+<attr name="attr_3"><float> 4.81058</float> </attr>
+<attr name="attr_4"><float> -28.183809</float> </attr>
+<attr name="attr_5"><float> 7.985738</float> </attr>
+</node>
+<node id="1980">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0.678984</float> </attr>
+<attr name="attr_1"><float> -0.89559</float> </attr>
+<attr name="attr_2"><float> 0.217471</float> </attr>
+<attr name="attr_3"><float> -16.700906</float> </attr>
+<attr name="attr_4"><float> 66.702154</float> </attr>
+<attr name="attr_5"><float> -24.045983</float> </attr>
+</node>
+<node id="1981">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0.351978</float> </attr>
+<attr name="attr_1"><float> 0.479505</float> </attr>
+<attr name="attr_2"><float> -0.130577</float> </attr>
+<attr name="attr_3"><float> -21.178459</float> </attr>
+<attr name="attr_4"><float> -28.44494</float> </attr>
+<attr name="attr_5"><float> 19.612023</float> </attr>
+</node>
+<node id="1982">
+<attr name="label"><int>1</int> </attr>
+<attr name="attr_0"><float>-1.459928</float> </attr>
+<attr name="attr_1"><float> -1.746221</float> </attr>
+<attr name="attr_2"><float> 1.127893</float> </attr>
+<attr name="attr_3"><float> 63.223419</float> </attr>
+<attr name="attr_4"><float> 11.100408</float> </attr>
+<attr name="attr_5"><float> 8.563071</float> </attr>
+</node>
+<node id="1983">
+<attr name="label"><int>1</int> </attr>
+<attr name="attr_0"><float>-1.643442</float> </attr>
+<attr name="attr_1"><float> 1.832704</float> </attr>
+<attr name="attr_2"><float> -1.555416</float> </attr>
+<attr name="attr_3"><float> 7.216732</float> </attr>
+<attr name="attr_4"><float> 8.374047</float> </attr>
+<attr name="attr_5"><float> -15.464489</float> </attr>
+</node>
+<node id="1984">
+<attr name="label"><int>1</int> </attr>
+<attr name="attr_0"><float>0.569095</float> </attr>
+<attr name="attr_1"><float> -2.639107</float> </attr>
+<attr name="attr_2"><float> 1.651996</float> </attr>
+<attr name="attr_3"><float> 20.449118</float> </attr>
+<attr name="attr_4"><float> 3.496871</float> </attr>
+<attr name="attr_5"><float> 10.241615</float> </attr>
+</node>
+<node id="1985">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-0.200389</float> </attr>
+<attr name="attr_1"><float> -1.708218</float> </attr>
+<attr name="attr_2"><float> 1.083334</float> </attr>
+<attr name="attr_3"><float> -56.468413</float> </attr>
+<attr name="attr_4"><float> -6.513773</float> </attr>
+<attr name="attr_5"><float> -44.109382</float> </attr>
+</node>
+<node id="1986">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-1.769062</float> </attr>
+<attr name="attr_1"><float> 1.655665</float> </attr>
+<attr name="attr_2"><float> -0.375632</float> </attr>
+<attr name="attr_3"><float> -13.857759</float> </attr>
+<attr name="attr_4"><float> -18.076657</float> </attr>
+<attr name="attr_5"><float> 17.451016</float> </attr>
+</node>
+<node id="1987">
+<attr name="label"><int>1</int> </attr>
+<attr name="attr_0"><float>-0.879173</float> </attr>
+<attr name="attr_1"><float> 0.897065</float> </attr>
+<attr name="attr_2"><float> 0.40309</float> </attr>
+<attr name="attr_3"><float> 5.807811</float> </attr>
+<attr name="attr_4"><float> 19.072949</float> </attr>
+<attr name="attr_5"><float> -7.502957</float> </attr>
+</node>
+<node id="1988">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-0.075845</float> </attr>
+<attr name="attr_1"><float> -3.094051</float> </attr>
+<attr name="attr_2"><float> 2.174235</float> </attr>
+<attr name="attr_3"><float> -21.637837</float> </attr>
+<attr name="attr_4"><float> -34.335382</float> </attr>
+<attr name="attr_5"><float> 27.021908</float> </attr>
+</node>
+<node id="1989">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>2.198881</float> </attr>
+<attr name="attr_1"><float> -2.328962</float> </attr>
+<attr name="attr_2"><float> -0.109747</float> </attr>
+<attr name="attr_3"><float> -1.990289</float> </attr>
+<attr name="attr_4"><float> -12.32886</float> </attr>
+<attr name="attr_5"><float> -1.565668</float> </attr>
+</node>
+<node id="1990">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>0.886079</float> </attr>
+<attr name="attr_1"><float> 2.256312</float> </attr>
+<attr name="attr_2"><float> -1.290776</float> </attr>
+<attr name="attr_3"><float> -1.976213</float> </attr>
+<attr name="attr_4"><float> -11.604681</float> </attr>
+<attr name="attr_5"><float> 16.740382</float> </attr>
+</node>
+<node id="1991">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>3.762538</float> </attr>
+<attr name="attr_1"><float> -1.026944</float> </attr>
+<attr name="attr_2"><float> -1.159506</float> </attr>
+<attr name="attr_3"><float> 13.472102</float> </attr>
+<attr name="attr_4"><float> 7.279157</float> </attr>
+<attr name="attr_5"><float> -9.142884</float> </attr>
+</node>
+<node id="1992">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>3.232353</float> </attr>
+<attr name="attr_1"><float> 1.462093</float> </attr>
+<attr name="attr_2"><float> -1.91439</float> </attr>
+<attr name="attr_3"><float> -16.817885</float> </attr>
+<attr name="attr_4"><float> -6.84209</float> </attr>
+<attr name="attr_5"><float> 23.322334</float> </attr>
+</node>
+<node id="1993">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-3.888776</float> </attr>
+<attr name="attr_1"><float> 1.902071</float> </attr>
+<attr name="attr_2"><float> -0.20692</float> </attr>
+<attr name="attr_3"><float> 14.465032</float> </attr>
+<attr name="attr_4"><float> 15.611972</float> </attr>
+<attr name="attr_5"><float> 11.858875</float> </attr>
+</node>
+<node id="1994">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-3.084749</float> </attr>
+<attr name="attr_1"><float> 1.33553</float> </attr>
+<attr name="attr_2"><float> 1.310513</float> </attr>
+<attr name="attr_3"><float> 2.025523</float> </attr>
+<attr name="attr_4"><float> 12.530418</float> </attr>
+<attr name="attr_5"><float> -12.302798</float> </attr>
+</node>
+<node id="1995">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-2.82873</float> </attr>
+<attr name="attr_1"><float> 3.059045</float> </attr>
+<attr name="attr_2"><float> 0.874314</float> </attr>
+<attr name="attr_3"><float> -9.579437</float> </attr>
+<attr name="attr_4"><float> -2.364703</float> </attr>
+<attr name="attr_5"><float> -7.988802</float> </attr>
+</node>
+<edge from="1976" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1977" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1977" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1978" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1978" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1978" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1979" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1980" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1980" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1980" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1980" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1980" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1981" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1982" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1983" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1984" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1985" to="1984">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1986" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1984">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1987" to="1986">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1984">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1988" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1984">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1989" to="1988">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1986">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1990" to="1989">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1984">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1989">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1991" to="1990">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1975">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1977">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1978">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1989">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1990">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1992" to="1991">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1986">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1993" to="1990">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1980">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1982">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1985">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1986">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1990">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1994" to="1993">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1976">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1979">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1981">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1983">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1986">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1987">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1990">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1993">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="1995" to="1994">
+<attr name="label"><int>0</int> </attr>
+</edge>
+</graph>
+</gxl>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_4" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="44">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="45">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="46">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="47">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="48">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="49">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="50">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="51">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="52">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="53">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="54">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="55">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="56">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="57">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="58">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="59">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="60">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="61">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="62">
+<attr name="label"><int>2</int> </attr>
+</node>
+<edge from="45" to="44">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="46" to="45">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="47" to="46">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="48" to="47">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="49" to="48">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="49" to="44">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="50" to="48">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="51" to="50">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="52" to="51">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="53" to="52">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="54" to="53">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="55" to="54">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="55" to="50">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="56" to="55">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="56" to="47">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="57" to="56">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="58" to="57">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="59" to="58">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="59" to="54">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="60" to="57">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="61" to="60">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="62" to="60">
+<attr name="label"><int>1</int> </attr>
+</edge>
+</graph>
+</gxl>

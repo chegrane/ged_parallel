@@ -28,7 +28,7 @@ public class Parallel implements Runnable {
 
 
         //System.out.println(threadName+";"+":The end of the execution of the B&B"+ "  eval:"+";"+editDistance + "  time (s):" + ";"+TimeUnit.NANOSECONDS.toSeconds(elapsedTime)+ "  time (Ms):" +TimeUnit.NANOSECONDS.toMillis(elapsedTime)+"  nb_explored:"+ exact_GED.nb_all_path_added_to_open );
-        System.out.println(editDistance + ";" + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + ";" + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + ";" + exact_GED.nb_all_path_added_to_open);
+        //System.out.println(editDistance + ";" + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + ";" + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + ";" + exact_GED.nb_all_path_added_to_open);
         // ---------------------------------------------------------------------------------------
         // ---------------------------------------------------------------------------------------
         /// String output= "test__"+new File(file_g1).getName()+"__"+new File(file_g2).getName();
@@ -46,7 +46,7 @@ public class Parallel implements Runnable {
             Main.Global_optimal_Path = exact_GED.optimal_Path;
             Main.Final_results = threadName + ":" + Main.file_g1 + separator + Main.file_g2 + separator + editDistance + separator + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + separator + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + separator + exact_GED.nb_all_path_added_to_open + separator + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + separator + exact_GED.optimal_Path;
 
-            System.out.println(threadName + ":" + Main.file_g1 + separator + Main.file_g2 + separator + editDistance + separator + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + separator + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + separator + exact_GED.nb_all_path_added_to_open + separator + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + separator + exact_GED.optimal_Path);
+            //System.out.println(threadName + ":" + Main.file_g1 + separator + Main.file_g2 + separator + editDistance + separator + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + separator + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + separator + exact_GED.nb_all_path_added_to_open + separator + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + separator + exact_GED.optimal_Path);
 
 
             //            out.println(threadName+ "time (s):" + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + ":" + Main.file_g1 + separator + Main.file_g2 + separator + editDistance + separator + TimeUnit.NANOSECONDS.toSeconds(elapsedTime) + separator + TimeUnit.NANOSECONDS.toMillis(elapsedTime) + separator +"NB_nodes_explorés:"+ Main.global_visited_nodes + separator + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + separator + exact_GED.optimal_Path);
@@ -58,7 +58,7 @@ public class Parallel implements Runnable {
                 if (out != null)
                     out.close();
             }*/ synchronized (Main.fin)
-            { System.out.println("c bon thread notify send");
+            { //System.out.println("c bon thread notify send");
                 Main.fin.notify();
             }
         }

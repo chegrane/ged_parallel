@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_8" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="118">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="119">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="120">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="121">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="122">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="123">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="124">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="125">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="126">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="127">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="128">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="129">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="130">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="131">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="132">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="133">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="134">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="135">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="136">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="137">
+<attr name="label"><int>2</int> </attr>
+</node>
+<edge from="119" to="118">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="120" to="119">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="121" to="119">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="122" to="121">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="123" to="122">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="124" to="123">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="125" to="124">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="126" to="125">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="127" to="126">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="127" to="122">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="128" to="126">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="129" to="128">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="130" to="129">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="130" to="125">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="131" to="130">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="132" to="131">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="133" to="132">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="134" to="133">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="134" to="129">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="135" to="133">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="136" to="135">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="137" to="135">
+<attr name="label"><int>1</int> </attr>
+</edge>
+</graph>
+</gxl>

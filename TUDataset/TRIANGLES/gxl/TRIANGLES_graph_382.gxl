@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_382" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="5519">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5520">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5521">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="5522">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5523">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5524">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5525">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5526">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5527">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5528">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5529">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5530">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5531">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="5532">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5533">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5534">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5535">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>1</float> </attr>
+</node>
+<node id="5536">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5537">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<node id="5538">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>0</float> </attr>
+</node>
+<edge from="5519" to="5523">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5519" to="5534">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5520" to="5536">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5521" to="5535">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5523" to="5519">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5525" to="5528">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5526" to="5520">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5527" to="5531">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5528" to="5536">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5530" to="5519">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5531" to="5521">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5531" to="5532">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5532" to="5523">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5532" to="5533">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5533" to="5532">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5534" to="5525">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5534" to="5536">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5535" to="5529">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5536" to="5520">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="5536" to="5534">
+<attr name="label"><int>0</int> </attr>
+</edge>
+</graph>
+</gxl>

@@ -44,13 +44,16 @@ public class Main {
    public static AtomicInteger upper_bound = new AtomicInteger(1000);
     public static int global_visited_nodes=0;
     public static CyclicBarrier barrier;
+    public static int amount_RunTime_S=0;
+
    public static void main(String[] args)
-   { path_Stack=new Stack<Path>();
+   {
+       path_Stack=new Stack<Path>();
 
      String pathname_result_output_file=null;
      String test_benchmark=null; // CMU, MUTA, GREC, PATH (acyclic, alkane, pah, mao)
-     int amount_RunTime_S=0;
-upper_bound.set(1000);
+
+        upper_bound.set(1000);
         if(args.length>=10)
         {
             try {

@@ -1,5 +1,6 @@
 import imoprt_exoprt_jgrapht_gxl.Import_JGraphT_From_GXL;
-        import org.jgrapht.UndirectedGraph;
+import imoprt_exoprt_jgrapht_gxl.Import_TUDataset_from_gxl;
+import org.jgrapht.UndirectedGraph;
         import org.jgrapht.graph.SimpleGraph;
 
         import graph_element.*;
@@ -49,12 +50,14 @@ public class Main {
     public  static Path Global_optimal_Path;
     public static int k_level=1000000000;
 
+    public static int amount_RunTime_S=0;
+
     public static void main(String[] args)
     { path_Stack=new Stack<Path>();
 
         String pathname_result_output_file=null;
         String test_benchmark=null; // CMU, MUTA, GREC, PATH (acyclic, alkane, pah, mao)
-        int amount_RunTime_S=0;
+
         upper_bound.set(1000);
         if(args.length>=10)
         {
@@ -99,6 +102,9 @@ public class Main {
         else if(test_benchmark.equals("CMU")) {
             g1 = Import_JGraphT_From_GXL.import_simple_graph_from_CMU_GED(file_g1);
             g2 = Import_JGraphT_From_GXL.import_simple_graph_from_CMU_GED(file_g2);
+        }else if (test_benchmark.equals("TUDataset")) {
+            g1 = Import_TUDataset_from_gxl.import_simple_graph_label_only(file_g1);
+            g2 = Import_TUDataset_from_gxl.import_simple_graph_label_only(file_g2);
         }
 
 
@@ -147,14 +153,14 @@ public class Main {
         }
         synchronized(fin){
             try{
-                System.out.println("Waiting for threads to finish...NB_threads"+NB_thread);
+                //System.out.println("Waiting for threads to finish...NB_threads"+NB_thread);
                 //  for(int i=0;i<NB_thread;i++){
                 fin.wait(); //System.out.println("i:"+i);}
             }catch(InterruptedException e){
                 e.printStackTrace();
             }
 
-            System.out.println("the end of threads execution");
+            //System.out.println("the end of threads execution");
         }
 
         try {
@@ -168,7 +174,7 @@ public class Main {
 
         long elapsedTime = endTime - startTime;
 
-        System.out.println("cbon ça marche");
+        //System.out.println("cbon ça marche");
 
         // ---------------------------------------------------------------------------------------
         // ---------------------------------------------------------------------------------------
@@ -184,7 +190,7 @@ public class Main {
 
             out = new PrintWriter(new FileWriter(file, true), true);
             out.println("Final_results:"+Final_results);
-            System.out.println(Final_results);
+            //System.out.println(Final_results);
             //   out.println(file_g1+separator+file_g2+separator + editDistance + separator + TimeUnit.NANOSECONDS.toSeconds(elapsedTime)+separator +"time (MS):"+TimeUnit.NANOSECONDS.toMillis(elapsedTime) + separator + exact_GED.nb_all_path_added_to_open + separator + (Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) + separator + exact_GED.optimal_Path );
 
         } catch (IOException e) {

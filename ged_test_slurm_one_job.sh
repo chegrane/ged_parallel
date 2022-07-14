@@ -6,7 +6,6 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16                             # Number of CPU cores per task (20 for node that conatin more than 20)
 #SBATCH --time=01:10:00                              # Time limit hrs:min:sec
-#SBATCH --reservation=adabah_9
 ###SBATCH --partition=any*                           # Partition to submit to
 
 

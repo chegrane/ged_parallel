@@ -1,4 +1,6 @@
+import java.util.Comparator;
 import java.util.concurrent.CyclicBarrier;
+
 import graph_element.Vertex;
 import org.jgrapht.Graph;
 
@@ -11,116 +13,123 @@ import java.util.concurrent.CyclicBarrier;
 
 public class Exact_GED_threads {
 // Exact Graph Edit Distance (GED) with Branch and Bound (BB) Depth First stratigy (DF)
-        /**
-         * The set OPEN of partial edit paths contains the search tree nodes
-         * to be processed in the next steps.
-         */
-     //   private Stack<Path> path_Stack;
+    /**
+     * The set OPEN of partial edit paths contains the search tree nodes
+     * to be processed in the next steps.
+     */
+    //   private Stack<Path> path_Stack;
          /* In the branch and Bound Depth first we use stack to manage the backtraking in the search tree,
 	 									when we complete to process an intermediate node, we back to it's father.*/
-        private double upper_bound = Double.MAX_VALUE;
-        private long amount_RunTime=0;
-    private  CyclicBarrier barrier1;
-  private   Stack<Path> path_Stack1;
-    private   Stack<Path> p_Stack;
-        // Just for debugging purpose
-        Path optimal_Path;
-        int nb_all_path_added_to_open=0; // just for debugging
-        /**
-         * Default Constructor
-         */
-        public Exact_GED_threads()
-        {
-     //       path_Stack=new Stack<Path>();
-        }
+    private double upper_bound = Double.MAX_VALUE;
+    private long amount_RunTime = 0;
+    private CyclicBarrier barrier1;
+    private Stack<Path> path_Stack1;
+    private Stack<Path> p_Stack;
+    // Just for debugging purpose
+    Path optimal_Path;
+    int nb_all_path_added_to_open = 0; // just for debugging
 
-        public Exact_GED_threads(long amount_RunTime) {
+    Boolean is_time_out = false;
 
-            path_Stack1=new Stack<Path>();
-            p_Stack=new Stack<Path>();
-            this.amount_RunTime = amount_RunTime;
-        }
-
-        /**
-         * Compute the exact edit distance between two graphs.
-         * The method implements A* algorithm
-         * @param g1 from graph
-         * @param g2 to graph
-         * @return returns the exact edit distance between the to graphs
-         */
-        @SuppressWarnings({ "rawtypes", "unchecked" })
-        public double computeGED(Graph g1, Graph g2)
-        { barrier1=Main.barrier;
-            // if both graph are empty, then the edit distance is "0"
-            if (g1.vertexSet().size() == 0 && g2.vertexSet().size() == 0) {
-                return 0;
-            }
-
-            // if the graph g1 is empty (g2 is not), then
-            // edit distance is = the cost of (insertion of all vertices of g2) + (insertion of all edges of g2)
-
-            if (g1.vertexSet().size() == 0) {
-                return (GED_Operations_Cost.getVertex_insertion_cost() * g2.vertexSet().size() + GED_Operations_Cost.getEdge_insertion_cost() * g2.edgeSet().size());
-            }
-
-            // if the graph g1 have vertices and edges; and g2 is empty, then
-            // edit distance is = the cost of (deletion of all vertices of g1) + (deletion of all edges of g1)
-
-            if (g2.vertexSet().size() == 0) {
-                return (GED_Operations_Cost.getVertex_deletion_cost() * g1.vertexSet().size() + GED_Operations_Cost.getEdge_deletion_cost() * g1.edgeSet().size());
-            }
-         //   upper_bound = Main.UB;//h_function.compute(g1,g2,"max");
-
-            // local varibal, listV1: set of vertices of g1 ; listV2: set of vertices of g2
-            ArrayList<Vertex> listV1 = new ArrayList<>(g1.vertexSet());
-            ArrayList<Vertex> listV2 = new ArrayList<>(g2.vertexSet());
-
-          //  System.out.println("name+++--thread"+Thread.currentThread().getName());
-            // ---------------------- step 1 : Prepare initial paths (first level of the search tree)
-if(Thread.currentThread().getName().equalsIgnoreCase("thread-1")) {
-    // substitution
-    Main.upper_bound.set((int)h_function.compute(g1,g2,"max"));
-   for (Vertex w : listV2) {
-        Edit_Operation vertex_substitution_operation = new Edit_Operation(listV1.get(0), w);
-        Path path = new Path(g1, g2);
-        path.add(vertex_substitution_operation);
-        // Insert substitution (u1 --> w) into OPEN
-        if (path.getG_cost_PLUS_h_cost() < Main.upper_bound.doubleValue()) {
-           // Main.path_Stack.push(path);
-            Main.path_Stack.add(path);
-
-            //OPEN.add(path);
-            nb_all_path_added_to_open++;
-        }
+    /**
+     * Default Constructor
+     */
+    public Exact_GED_threads() {
+        //       path_Stack=new Stack<Path>();
     }
 
-    // deletion
-    Edit_Operation vertex_deletion_operation = new Edit_Operation(listV1.get(0), null);
-    Path path0 = new Path(g1, g2);
-    path0.add(vertex_deletion_operation);
-    // Insert deletion (u1 --> null) into OPEN
+    public Exact_GED_threads(long amount_RunTime) {
 
-    if (path0.getG_cost_PLUS_h_cost() < Main.upper_bound.doubleValue()) {
-       // Main.path_Stack.push(path0);
-        Main.path_Stack.add(path0);
-
-        nb_all_path_added_to_open++;
+        path_Stack1 = new Stack<Path>();
+        p_Stack = new Stack<Path>();
+        this.amount_RunTime = amount_RunTime;
     }
-}//else{ while(Main.path_Stack.empty()){} }
-            Path pMin;
-            // add threads
-            //while(true)
+
+    /**
+     * Compute the exact edit distance between two graphs.
+     * The method implements A* algorithm
+     *
+     * @param g1 from graph
+     * @param g2 to graph
+     * @return returns the exact edit distance between the to graphs
+     */
+    @SuppressWarnings({"rawtypes", "unchecked"})
+    public double computeGED(Graph g1, Graph g2) {
+
+        long start1 = System.currentTimeMillis();
+
+        barrier1 = Main.barrier;
+        // if both graph are empty, then the edit distance is "0"
+        if (g1.vertexSet().size() == 0 && g2.vertexSet().size() == 0) {
+            return 0;
+        }
+
+        // if the graph g1 is empty (g2 is not), then
+        // edit distance is = the cost of (insertion of all vertices of g2) + (insertion of all edges of g2)
+
+        if (g1.vertexSet().size() == 0) {
+            return (GED_Operations_Cost.getVertex_insertion_cost() * g2.vertexSet().size() + GED_Operations_Cost.getEdge_insertion_cost() * g2.edgeSet().size());
+        }
+
+        // if the graph g1 have vertices and edges; and g2 is empty, then
+        // edit distance is = the cost of (deletion of all vertices of g1) + (deletion of all edges of g1)
+
+        if (g2.vertexSet().size() == 0) {
+            return (GED_Operations_Cost.getVertex_deletion_cost() * g1.vertexSet().size() + GED_Operations_Cost.getEdge_deletion_cost() * g1.edgeSet().size());
+        }
+        //   upper_bound = Main.UB;//h_function.compute(g1,g2,"max");
+
+        // local varibal, listV1: set of vertices of g1 ; listV2: set of vertices of g2
+        ArrayList<Vertex> listV1 = new ArrayList<>(g1.vertexSet());
+        ArrayList<Vertex> listV2 = new ArrayList<>(g2.vertexSet());
+
+        //  System.out.println("name+++--thread"+Thread.currentThread().getName());
+        // ---------------------- step 1 : Prepare initial paths (first level of the search tree)
+        if (Thread.currentThread().getName().equalsIgnoreCase("thread-1")) {
+            // substitution
+            Main.upper_bound.set((int) h_function.compute(g1, g2, "max"));
+
+            for (Vertex w : listV2) {
+                Edit_Operation vertex_substitution_operation = new Edit_Operation(listV1.get(0), w);
+                Path path = new Path(g1, g2);
+                path.add(vertex_substitution_operation);
+                // Insert substitution (u1 --> w) into OPEN
+                if (path.getG_cost_PLUS_h_cost() < Main.upper_bound.doubleValue()) {
+                    Main.path_Stack.add(path);
+
+                    //OPEN.add(path);
+                    nb_all_path_added_to_open++;
+                }
+            }
+
+            // deletion
+            Edit_Operation vertex_deletion_operation = new Edit_Operation(listV1.get(0), null);
+            Path path0 = new Path(g1, g2);
+            path0.add(vertex_deletion_operation);
+            // Insert deletion (u1 --> null) into OPEN
+
+            if (path0.getG_cost_PLUS_h_cost() < Main.upper_bound.doubleValue()) {
+                // Main.path_Stack.push(path0);
+                Main.path_Stack.add(path0);
+
+                nb_all_path_added_to_open++;
+            }
+
+        }//else{ while(Main.path_Stack.empty()){} }
+        Path pMin;
+        // add threads
+        //while(true)
 //System.out.println("UBmain:"+Main.upper_bound);
-            try {
-                               barrier1.await();
+        try {
+            barrier1.await();
 
-         //       System.out.println("Barrière dépassée : Le thread ");
-            } catch (InterruptedException | BrokenBarrierException e) {
-                e.printStackTrace();
-            }
+            //       System.out.println("Barrière dépassée : Le thread ");
+        } catch (InterruptedException | BrokenBarrierException e) {
+            e.printStackTrace();
+        }
 
-            int size=Main.path_Stack.size();
-            size= (int) size/Main.NB_thread;
+        int size = Main.path_Stack.size();
+        size = (int) size / Main.NB_thread;
 
             /*/try {
                 barrier1.await();
@@ -128,26 +137,29 @@ if(Thread.currentThread().getName().equalsIgnoreCase("thread-1")) {
                        } catch (InterruptedException | BrokenBarrierException e) {
                 e.printStackTrace();
             }*/
-            size++;
-int iteration=0;
-                //section critique
-            int se=0;
-          //for(int i=0;i<size;i++)
-            while(se<size)
-                    {synchronized(Main.path_Stack) {
-                if(Main.path_Stack.size()>0){Path p1 = Main.path_Stack.remove()/*pop()*/; path_Stack1.push(p1);
-                se++;
-          }
+        size++;
+        int iteration = 0;
+        //section critique
+        int se = 0;
+        //for(int i=0;i<size;i++)
+        while (se < size) {
+            synchronized (Main.path_Stack) {
+                if (Main.path_Stack.size() > 0) {
+                    Path p1 = Main.path_Stack.remove()/*pop()*/;
+                    path_Stack1.push(p1);
+                    se++;
+                }
             }
-            }
-           // System.out.println("c bon size:"+size);
-            while(!Main.path_Stack.isEmpty()||!path_Stack1.empty()) // a loop to process all the vertices in g1, wa treat all the sub-tree.
-            {
-                // Return pMin and delete all argmin_p{g(p)+h(p)} paths
-                // get the node pMin from OPEN, this depend on the strategy implemented.
-                pMin = argMin();
-                // System.out.println(pMin.toString());
-                if (pMin!=null) {
+        }
+        // System.out.println("c bon size:"+size);
+        //while (!Main.path_Stack.isEmpty() || !path_Stack1.empty()) // a loop to process all the vertices in g1, wa treat all the sub-tree.
+        while ((!Main.path_Stack.isEmpty() || !path_Stack1.empty()) && !is_time_out)
+        {
+            // Return pMin and delete all argmin_p{g(p)+h(p)} paths
+            // get the node pMin from OPEN, this depend on the strategy implemented.
+            pMin = argMin();
+            // System.out.println(pMin.toString());
+            if (pMin != null) {
                 if (pMin.isCompleteEditPath()) {
                  /*   if(optimal_Path==null)
                     {
@@ -158,9 +170,10 @@ int iteration=0;
                     else*/
                     {
                         if (pMin.getG_cost() < Main.upper_bound.get())//optimal_Path.getG_cost())
-                        {   optimal_Path = new Path(pMin); // Make a copy for debugging purpose
+                        {
+                            optimal_Path = new Path(pMin); // Make a copy for debugging purpose
                             Main.upper_bound.set((int) pMin.getG_cost());
-                       //     System.out.println("UB main:" +Main.upper_bound.get());
+                            //     System.out.println("UB main:" +Main.upper_bound.get());
                         }
                     }
 
@@ -218,11 +231,16 @@ int iteration=0;
                         }
                     }
                 }
-if(iteration<5){  synchronized (Main.path_Stack) {Main.path_Stack.addAll( path_Stack1);} path_Stack1.clear();}
-                    else if(iteration>100 && Thread.currentThread().getName().equalsIgnoreCase("thread-1")==true){
+                if (iteration < 5) {
+                    synchronized (Main.path_Stack) {
+                        Main.path_Stack.addAll(path_Stack1);
+                    }
+                    path_Stack1.clear();
+                } else if (iteration > 100 && Thread.currentThread().getName().equalsIgnoreCase("thread-1") == true) {
 
-                    Main.path_Stack_load.addAll(Main.path_Stack); Main.path_Stack.clear();
-}
+                    Main.path_Stack_load.addAll(Main.path_Stack);
+                    Main.path_Stack.clear();
+                }
 
                 if (iteration % Main.k_level == 0) {
                     int zi = (int) (path_Stack1.size() / 5);
@@ -230,66 +248,96 @@ if(iteration<5){  synchronized (Main.path_Stack) {Main.path_Stack.addAll( path_S
                         //               for(int i=0;i<zi;i++)p_Stack.push(path_Stack1.remove(0));
                         synchronized (Main.path_Stack) {
                             Main.path_Stack.addAll(path_Stack1);
-                            }
-                            path_Stack1.clear(); //path_Stack1.clear();
-                            //for(int i=0;i<zi;i++)path_Stack1.push(p_Stack.pop());
+                        }
+                        path_Stack1.clear(); //path_Stack1.clear();
+                        //for(int i=0;i<zi;i++)path_Stack1.push(p_Stack.pop());
 
                     }
                 }
             }
-            }
 
-            Main.global_visited_nodes=Main.global_visited_nodes+nb_all_path_added_to_open;
-            try {
-                barrier1.await();
-                //  System.out.println("Barrière dépassée fin : Le thread ");
-            } catch (InterruptedException | BrokenBarrierException e) {
-                e.printStackTrace();
+            long start2 = System.currentTimeMillis();
+
+            if (start2 - start1 > (Main.amount_RunTime_S * 1000L)) {
+
+                path_Stack1.clear();
+
+                this.is_time_out = true;
+                synchronized (Main.path_Stack){
+                    Main.path_Stack.clear();
+                    Main.path_Stack_load.clear();
+                }
             }
-            if(optimal_Path==null){return -1;} else return optimal_Path.getG_cost();
+        }
+
+        Main.global_visited_nodes = Main.global_visited_nodes + nb_all_path_added_to_open;
+        try {
+            barrier1.await();
+            //  System.out.println("Barrière dépassée fin : Le thread ");
+        } catch (InterruptedException | BrokenBarrierException e) {
+            e.printStackTrace();
+        }
+        if (optimal_Path == null) {
+            return -1;
+        } else return optimal_Path.getG_cost();
 //            // optimal_Path.getG_cost();
-         //  if(optimal_Path==null){return 0;} else return optimal_Path.getG_cost();
-        }
-        /**
-         * Get pMin and delete all argmin_p{g(p)+h(p)} paths
-         *
-         * @return returns the path p with the minimum g(p)+h(p)
-         */
-        private Path argMin()
-        { Path p=null;
-            //Path p = OPEN.poll();
-            if(path_Stack1.size()>0){p = path_Stack1.pop();}
-                else  if(Main.path_Stack_load.size()>0){
-                synchronized(Main.path_Stack_load) {
-                    if(Main.path_Stack_load.size()>0)
-                        p = Main.path_Stack_load.pop();}
+        //  if(optimal_Path==null){return 0;} else return optimal_Path.getG_cost();
+    }
 
+    /**
+     * Get pMin and delete all argmin_p{g(p)+h(p)} paths
+     *
+     * @return returns the path p with the minimum g(p)+h(p)
+     */
+    private Path argMin() {
+        Path p = null;
+        //Path p = OPEN.poll();
+        if (path_Stack1.size() > 0) {
+            p = path_Stack1.pop();
+        } else if (Main.path_Stack_load.size() > 0) {
+            synchronized (Main.path_Stack_load) {
+                if (Main.path_Stack_load.size() > 0)
+                    p = Main.path_Stack_load.pop();
             }
-            else {//if(Main.path_Stack.size()>5||Thread.currentThread().getName().equalsIgnoreCase("thread-1")==true) {
-                synchronized(Main.path_Stack) {
-                    if(Main.path_Stack.size()>0)
-                        p = Main.path_Stack.remove();}}
 
-            //while(p.getG_cost_PLUS_h_cost() == OPEN.peek().getG_cost_PLUS_h_cost()) // Double comparison !!! To be fixed!
-            //	OPEN.poll();
-
-            return p;
+        } else {//if(Main.path_Stack.size()>5||Thread.currentThread().getName().equalsIgnoreCase("thread-1")==true) {
+            synchronized (Main.path_Stack) {
+                if (Main.path_Stack.size() > 0)
+                    p = Main.path_Stack.remove();
+            }
         }
 
-    private void add_Path(Path p)
-    {
+        //while(p.getG_cost_PLUS_h_cost() == OPEN.peek().getG_cost_PLUS_h_cost()) // Double comparison !!! To be fixed!
+        //	OPEN.poll();
+
+        return p;
+    }
+
+    private void add_Path(Path p) {
         //Path p = OPEN.poll();
 //if(nb_all_path_added_to_open>1000)
-    if(Main.path_Stack_load.size()<5){ /*Main.path_Stack.push(p);}//*/
-  if(path_Stack1.size()>1) {   Main.path_Stack_load.push(path_Stack1.get(0)); path_Stack1.remove(0);}
-                            }
+        if (Main.path_Stack_load.size() < 5) { /*Main.path_Stack.push(p);}//*/
+            if (path_Stack1.size() > 1) {
+                Main.path_Stack_load.push(path_Stack1.get(0));
+                path_Stack1.remove(0);
+            }
+        }
 
-    {path_Stack1.push(p);}
-    //else{
-      // if(this.nb_all_path_added_to_open>0)
+
+        //path_Stack1.push(p);
+        if (path_Stack1.empty()) {
+            path_Stack1.push(p);
+        } else if (p.getG_cost_PLUS_h_cost() < path_Stack1.lastElement().getG_cost_PLUS_h_cost()) {
+            path_Stack1.push(p);
+        } else {
+            path_Stack1.insertElementAt(p, path_Stack1.size() - 1);
+        }
+
+        //else{
+        // if(this.nb_all_path_added_to_open>0)
         //      else
         //while(p.getG_cost_PLUS_h_cost() == OPEN.peek().getG_cost_PLUS_h_cost()) // Double comparison !!! To be fixed!
         //	OPEN.poll();
-    //}
+        //}
     }
 }

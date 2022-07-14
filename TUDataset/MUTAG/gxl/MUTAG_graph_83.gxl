@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_83" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="1491">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1492">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1493">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1494">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1495">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="1496">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1497">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1498">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1499">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1500">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1501">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1502">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1503">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="1504">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="1505">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="1506">
+<attr name="label"><int>2</int> </attr>
+</node>
+<edge from="1492" to="1491">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1493" to="1492">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1494" to="1493">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1495" to="1494">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1496" to="1495">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1497" to="1496">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1498" to="1497">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1499" to="1498">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1500" to="1499">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1501" to="1500">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1501" to="1496">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1502" to="1501">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1502" to="1494">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1503" to="1502">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1503" to="1491">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1504" to="1498">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="1505" to="1504">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="1506" to="1504">
+<attr name="label"><int>1</int> </attr>
+</edge>
+</graph>
+</gxl>

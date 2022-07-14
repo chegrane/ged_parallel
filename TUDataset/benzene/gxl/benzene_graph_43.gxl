@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_43" edgeids="true" edgemode="undirected">
+<attr name="label"><int>0</int> </attr>
+<node id="505">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-104.912</float> </attr>
+<attr name="attr_1"><float> 117.375</float> </attr>
+<attr name="attr_2"><float> -97.5864</float> </attr>
+<attr name="attr_3"><float> 1.436734</float> </attr>
+<attr name="attr_4"><float> -12.536395</float> </attr>
+<attr name="attr_5"><float> 12.409704</float> </attr>
+</node>
+<node id="506">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-106.288</float> </attr>
+<attr name="attr_1"><float> 117.14</float> </attr>
+<attr name="attr_2"><float> -97.4265</float> </attr>
+<attr name="attr_3"><float> -15.966432</float> </attr>
+<attr name="attr_4"><float> 8.41284</float> </attr>
+<attr name="attr_5"><float> -11.104502</float> </attr>
+</node>
+<node id="507">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-107.166</float> </attr>
+<attr name="attr_1"><float> 117.692</float> </attr>
+<attr name="attr_2"><float> -98.3756</float> </attr>
+<attr name="attr_3"><float> 61.147008</float> </attr>
+<attr name="attr_4"><float> 26.45856</float> </attr>
+<attr name="attr_5"><float> -10.235592</float> </attr>
+</node>
+<node id="508">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-106.658</float> </attr>
+<attr name="attr_1"><float> 118.545</float> </attr>
+<attr name="attr_2"><float> -99.3945</float> </attr>
+<attr name="attr_3"><float> -16.004016</float> </attr>
+<attr name="attr_4"><float> -18.408528</float> </attr>
+<attr name="attr_5"><float> 22.77216</float> </attr>
+</node>
+<node id="509">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-105.306</float> </attr>
+<attr name="attr_1"><float> 118.814</float> </attr>
+<attr name="attr_2"><float> -99.4801</float> </attr>
+<attr name="attr_3"><float> -17.809488</float> </attr>
+<attr name="attr_4"><float> -14.538096</float> </attr>
+<attr name="attr_5"><float> 10.351786</float> </attr>
+</node>
+<node id="510">
+<attr name="label"><int>0</int> </attr>
+<attr name="attr_0"><float>-104.433</float> </attr>
+<attr name="attr_1"><float> 118.196</float> </attr>
+<attr name="attr_2"><float> -98.6081</float> </attr>
+<attr name="attr_3"><float> 39.769056</float> </attr>
+<attr name="attr_4"><float> -11.693304</float> </attr>
+<attr name="attr_5"><float> -13.036378</float> </attr>
+</node>
+<node id="511">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-104.217</float> </attr>
+<attr name="attr_1"><float> 116.864</float> </attr>
+<attr name="attr_2"><float> -96.9183</float> </attr>
+<attr name="attr_3"><float> 2.729578</float> </attr>
+<attr name="attr_4"><float> 1.480363</float> </attr>
+<attr name="attr_5"><float> 0.541483</float> </attr>
+</node>
+<node id="512">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-106.777</float> </attr>
+<attr name="attr_1"><float> 116.559</float> </attr>
+<attr name="attr_2"><float> -96.6214</float> </attr>
+<attr name="attr_3"><float> 17.833824</float> </attr>
+<attr name="attr_4"><float> 1.746734</float> </attr>
+<attr name="attr_5"><float> -4.181357</float> </attr>
+</node>
+<node id="513">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-108.19</float> </attr>
+<attr name="attr_1"><float> 117.579</float> </attr>
+<attr name="attr_2"><float> -98.2873</float> </attr>
+<attr name="attr_3"><float> -50.753808</float> </attr>
+<attr name="attr_4"><float> -10.837786</float> </attr>
+<attr name="attr_5"><float> 3.218011</float> </attr>
+</node>
+<node id="514">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-107.347</float> </attr>
+<attr name="attr_1"><float> 118.949</float> </attr>
+<attr name="attr_2"><float> -100.11</float> </attr>
+<attr name="attr_3"><float> -9.667296</float> </attr>
+<attr name="attr_4"><float> 8.782042</float> </attr>
+<attr name="attr_5"><float> -10.019894</float> </attr>
+</node>
+<node id="515">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-104.933</float> </attr>
+<attr name="attr_1"><float> 119.429</float> </attr>
+<attr name="attr_2"><float> -100.245</float> </attr>
+<attr name="attr_3"><float> 12.1446</float> </attr>
+<attr name="attr_4"><float> 20.615328</float> </attr>
+<attr name="attr_5"><float> -26.72424</float> </attr>
+</node>
+<node id="516">
+<attr name="label"><int>2</int> </attr>
+<attr name="attr_0"><float>-103.344</float> </attr>
+<attr name="attr_1"><float> 118.24</float> </attr>
+<attr name="attr_2"><float> -98.9419</float> </attr>
+<attr name="attr_3"><float> -24.859584</float> </attr>
+<attr name="attr_4"><float> 0.518262</float> </attr>
+<attr name="attr_5"><float> 26.008848</float> </attr>
+</node>
+<edge from="506" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="507" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="507" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="508" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="508" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="508" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="509" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="509" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="509" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="509" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="510" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="510" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="510" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="510" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="510" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="511" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="512" to="511">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="511">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="513" to="512">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="511">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="512">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="514" to="513">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="511">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="512">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="513">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="515" to="514">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="505">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="506">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="507">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="508">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="509">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="510">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="511">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="512">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="513">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="514">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="516" to="515">
+<attr name="label"><int>0</int> </attr>
+</edge>
+</graph>
+</gxl>

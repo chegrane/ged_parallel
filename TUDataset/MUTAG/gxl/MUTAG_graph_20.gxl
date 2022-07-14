@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gxl SYSTEM "http://www.gupro.de/GXL/gxl-1.0.dtd">
+<gxl>
+<graph id="_20" edgeids="true" edgemode="undirected">
+<attr name="label"><int>1</int> </attr>
+<node id="321">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="322">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="323">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="324">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="325">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="326">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="327">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="328">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="329">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="330">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="331">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="332">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="333">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="334">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="335">
+<attr name="label"><int>0</int> </attr>
+</node>
+<node id="336">
+<attr name="label"><int>1</int> </attr>
+</node>
+<node id="337">
+<attr name="label"><int>2</int> </attr>
+</node>
+<node id="338">
+<attr name="label"><int>2</int> </attr>
+</node>
+<edge from="322" to="321">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="323" to="322">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="324" to="323">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="325" to="324">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="326" to="325">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="326" to="321">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="327" to="326">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="328" to="327">
+<attr name="label"><int>3</int> </attr>
+</edge>
+<edge from="329" to="324">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="330" to="329">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="331" to="330">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="331" to="323">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="332" to="331">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="333" to="332">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="334" to="333">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="335" to="334">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="335" to="330">
+<attr name="label"><int>0</int> </attr>
+</edge>
+<edge from="336" to="334">
+<attr name="label"><int>1</int> </attr>
+</edge>
+<edge from="337" to="336">
+<attr name="label"><int>2</int> </attr>
+</edge>
+<edge from="338" to="336">
+<attr name="label"><int>1</int> </attr>
+</edge>
+</graph>
+</gxl>
