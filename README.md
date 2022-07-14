@@ -39,9 +39,11 @@ For experiments, we use the main script `test_GED_scripts.py` where we generate 
 ```bash
 nohup python test_GED_script.py dataset_name time_sec algorithm.jar setting > log_file &
 ```
-where:
+With the following parameters:
 - `dataset_name`: benzene, MUTAG, AIDS, aspirin, TRIANGLES, MSRC_21, or all (for all at the same time).
 - `time_sec`: the time in seconds to run the experiments.
 - `algorithm.jar`: the path to the jar file of the algorithm.
 - `setting`: s1, s2, s3 (for setting 1 , 2 or 3).
 - `log_file`: the path to the log file.
+
+For cluster experiments, we use the script `ged_test_script.sh` for job array and `ged_test_script_one_job.sh` for one job on slurm scheduler.
