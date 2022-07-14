@@ -29,13 +29,13 @@ All datasets are in Graph exchange Language [GXL](http://www.gupro.de/GXL/) form
 In our exprements we use two datasets:
 - 1) PAH, MAO, Alkane, Acyclic, and GREC, CMU and MUTA;   wich can be downloaded from [ICPR 2016 - Graph Distance Contest](https://gdc2016.greyc.fr/gdc-c1.tar.gz) 
 
-- 2) [TUDataset](https://chrsmrrs.github.io/datasets/), since there are diffirent dataset with difirent proprity, you can dowload specific dataset as your need from [TUDataset download](https://chrsmrrs.github.io/datasets/docs/datasets/).
+- 2) [TUDataset](https://chrsmrrs.github.io/datasets/), Since there are different datasets with different properties, you can download a specific dataset corresponding to your need from [TUDataset download](https://chrsmrrs.github.io/datasets/docs/datasets/).
 The TUDataset is not in the GXL format, so we need to convert it to GXL format. For that, we write a python script to do that `parse_graphs_tudatasets_to_gxl.py`.
-For our experiments, we use the following datasets: "benzene", "MUTAG", "AIDS", "aspirin", "TRIANGLES", "MSRC_21".
+For our experiments, we used the following datasets: benzene, MUTAG, AIDS, aspirin, TRIANGLES, MSRC_21.
 
 
 # Experiments:
-For experiments, we use the main script `test_GED_scripts.py` where we generate all the combinations and settings. For TUDataset, you can use the script as follow:
+To execute the experiments, we use the main script `test_GED_scripts.py` where we generate all the combinations and settings. For TUDataset, you can use the script as follow:
 ```bash
 nohup python test_GED_script.py dataset_name time_sec algorithm.jar setting > log_file &
 ```
@@ -46,4 +46,4 @@ With the following parameters:
 - `setting`: s1, s2, s3 (for setting 1 , 2 or 3).
 - `log_file`: the path to the log file.
 
-For cluster experiments, we use the script `ged_test_script.sh` for job array and `ged_test_script_one_job.sh` for one job on slurm scheduler.
+To use cluster, we use the script `ged_test_script.sh` for job array and `ged_test_script_one_job.sh` for one job on slurm scheduler.
