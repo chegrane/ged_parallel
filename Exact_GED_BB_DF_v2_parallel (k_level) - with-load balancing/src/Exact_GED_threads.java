@@ -88,7 +88,7 @@ public class Exact_GED_threads {
         if (Thread.currentThread().getName().equalsIgnoreCase("thread-1")) {
             // substitution
             Main.upper_bound.set((int) h_function.compute(g1, g2, "max"));
-
+            int i=0;
             for (Vertex w : listV2) {
                 Edit_Operation vertex_substitution_operation = new Edit_Operation(listV1.get(0), w);
                 Path path = new Path(g1, g2);
@@ -114,8 +114,9 @@ public class Exact_GED_threads {
 
                 nb_all_path_added_to_open++;
             }
-
         }//else{ while(Main.path_Stack.empty()){} }
+
+
         Path pMin;
         // add threads
         //while(true)
@@ -129,7 +130,8 @@ public class Exact_GED_threads {
         }
 
         int size = Main.path_Stack.size();
-        size = (int) size / Main.NB_thread;
+        //size = (int) size / Main.NB_thread;
+        size = 1;
 
             /*/try {
                 barrier1.await();
@@ -137,20 +139,31 @@ public class Exact_GED_threads {
                        } catch (InterruptedException | BrokenBarrierException e) {
                 e.printStackTrace();
             }*/
-        size++;
-        int iteration = 0;
+        //size++;
         //section critique
         int se = 0;
         //for(int i=0;i<size;i++)
+
+        Stack<Path> tmp_stack = new Stack<>();
+
         while (se < size) {
             synchronized (Main.path_Stack) {
                 if (Main.path_Stack.size() > 0) {
                     Path p1 = Main.path_Stack.remove()/*pop()*/;
-                    path_Stack1.push(p1);
+                    tmp_stack.push(p1);
                     se++;
                 }
             }
         }
+
+        while (tmp_stack.size()>0) {
+            path_Stack1.push(tmp_stack.pop());
+        }
+
+        //System.out.println("before wile; Size Main.path_Stack = "+Main.path_Stack.size());
+        //System.out.println("before wile; Size path_Stack1 = "+path_Stack1.size());
+
+        int iteration = 0;
         // System.out.println("c bon size:"+size);
         //while (!Main.path_Stack.isEmpty() || !path_Stack1.empty()) // a loop to process all the vertices in g1, wa treat all the sub-tree.
         while ((!Main.path_Stack.isEmpty() || !path_Stack1.empty()) && !is_time_out)
@@ -173,7 +186,7 @@ public class Exact_GED_threads {
                         {
                             optimal_Path = new Path(pMin); // Make a copy for debugging purpose
                             Main.upper_bound.set((int) pMin.getG_cost());
-                            //     System.out.println("UB main:" +Main.upper_bound.get());
+                            //System.out.println(" Optimal Path UB main:" +Main.upper_bound.get());
                         }
                     }
 
@@ -181,6 +194,13 @@ public class Exact_GED_threads {
                     /// System.out.println(optimal_Path.toString());
                     /// System.out.println("G_cost = "+optimal_Path.getG_cost()+" | g+h = "+optimal_Path.getG_cost_PLUS_h_cost()+" | upper_bound = "+upper_bound);
                 } else {
+
+                    //System.out.println("Branching UB main:" +Main.upper_bound.get() + "  | iteration = "+iteration);
+                    //System.out.println("In wile; Size Main.path_Stack = "+Main.path_Stack.size());
+                    //System.out.println("In wile; Size path_Stack1 = "+path_Stack1.size());
+                    iteration++;
+
+
                     /// Let min_path = {u_1 --> v_i1,...,u_k --> v_ik}
                     List<Vertex> remainsV2 = pMin.getRemaining_unprocessed_vertex_g2();
                     int index_processed_vertices_g1 = pMin.getIndex_processed_vertices_g1();
@@ -236,11 +256,11 @@ public class Exact_GED_threads {
                         Main.path_Stack.addAll(path_Stack1);
                     }
                     path_Stack1.clear();
-                } else if (iteration > 100 && Thread.currentThread().getName().equalsIgnoreCase("thread-1") == true) {
+                } /*else if (iteration > 100 && Thread.currentThread().getName().equalsIgnoreCase("thread-1") == true) {
 
-                    Main.path_Stack_load.addAll(Main.path_Stack);
+                    Main.path_Stack_load.addAll(Main.path_Stack);  // pbm : sorted priority queue goes to stack in reverse.
                     Main.path_Stack.clear();
-                }
+                }*/
 
                 if (iteration % Main.k_level == 0) {
                     int zi = (int) (path_Stack1.size() / 5);
@@ -258,6 +278,7 @@ public class Exact_GED_threads {
 
             long start2 = System.currentTimeMillis();
 
+            //System.out.println(" time = "+ (start2 - start1));
             if (start2 - start1 > (Main.amount_RunTime_S * 1000L)) {
 
                 path_Stack1.clear();
@@ -270,10 +291,14 @@ public class Exact_GED_threads {
             }
         }
 
+        //System.out.println(" After While ..... ");
+        //System.out.println("After wile; Size Main.path_Stack = "+Main.path_Stack.size());
+        //System.out.println("After wile; Size path_Stack1 = "+path_Stack1.size());
+
         Main.global_visited_nodes = Main.global_visited_nodes + nb_all_path_added_to_open;
         try {
             barrier1.await();
-            //  System.out.println("Barrière dépassée fin : Le thread ");
+            //System.out.println("Barrière dépassée fin : Le thread ");
         } catch (InterruptedException | BrokenBarrierException e) {
             e.printStackTrace();
         }
@@ -314,12 +339,14 @@ public class Exact_GED_threads {
     }
 
     private void add_Path(Path p) {
-        //Path p = OPEN.poll();
-//if(nb_all_path_added_to_open>1000)
+
+
         if (Main.path_Stack_load.size() < 5) { /*Main.path_Stack.push(p);}//*/
             if (path_Stack1.size() > 1) {
-                Main.path_Stack_load.push(path_Stack1.get(0));
-                path_Stack1.remove(0);
+                synchronized (Main.path_Stack_load) {
+                    Main.path_Stack_load.push(path_Stack1.get(0));
+                    path_Stack1.remove(0);
+                }
             }
         }
 

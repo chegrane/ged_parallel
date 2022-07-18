@@ -52,11 +52,12 @@ public class Main {
     public static AtomicInteger upper_bound = new AtomicInteger(1000);
     public static int global_visited_nodes = 0;
     public static CyclicBarrier barrier;
-    //public static int k_level = 500;
-    public static int k_level = 1000;
+    public static int k_level = 75;
+
 
     public static int amount_RunTime_S = 0;
 
+    /*
     static Comparator<Path> idComparator = new Comparator<Path>() {
         @Override
         public int compare(Path c1, Path c2) {
@@ -66,8 +67,15 @@ public class Main {
             //    return (int) (1*(c1.getIndex_processed_vertices_g1() - c2.getIndex_processed_vertices_g1()));
         }
     };
+    */
+    static Comparator<Path> idComparator = new Comparator<Path>(){
+        @Override
+        public int compare(Path c1, Path c2) {
+            return (int) (c1.getRemaining_unprocessed_vertex_g2().size() + c1.getG_cost() - c2.getRemaining_unprocessed_vertex_g2().size() - c2.getG_cost());
+        }
+    };
 
-    public static void main(String[] args) {
+            public static void main(String[] args) {
         path_Stack_load = new Stack<Path>();
         path_Stack = new PriorityQueue<>(idComparator);
         // P_path_Stack.

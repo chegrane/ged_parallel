@@ -121,7 +121,8 @@ public class Path {
 
         this.g_cost = 0;
 
-        this.g_cost_PLUS_h_cost = g_cost + h();
+        ///this.g_cost_PLUS_h_cost = g_cost + h();
+        this.g_cost_PLUS_h_cost = g_cost;
     }
 
     /**
