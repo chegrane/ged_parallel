@@ -1,4 +1,8 @@
 # **ged_parallel** : Solving Graph Edit Distance (ged) in parallel.
+Graph Edit Distance (GED) is a well-known measure used in the graph matching to measure the similarity/dissimilarity between two graphs by computing the minimum cost of edit operations needed to transform one graph into another. This process, Which appears to be simple, is known NP-hard and time consuming since the search space is increasing exponentially. One way to optimally solve this problem is by using Branch and Bound (B&B) algorithms, Which reduce the computation time required to explore the whole search space by performing an implicit enumeration of the search space instead of an exhaustive one based on a pruning technique. nevertheless, They remain inefficient when dealing with large problem instances due to the impractical running time needed to explore the whole search space. To overcome this issue, We propose in [this paper](https://www.sciencedirect.com/science/article/pii/S0167819122000734) three parallel B&B approaches based on shared memory to exploit the multi-core CPU processors: First, a work-stealing approach where several instances of the B&B algorithm explore a single search tree concurrently achieving speedups up to 24× faster than the sequential version. Second, a tree-based approach where multiple parts of the search tree are explored simultaneously by independent B&B instances achieving speedups up to 28×. Finally, Due to the irregular nature of the GED problem, two load-balancing strategies are proposed to ensure a fair workload between parallel processes achieving impressive speedups up to 300×. all experiments have been carried out on well-known datasets.
+
+- Our paper title: ***Efficient parallel branch-and-bound approaches for exact graph edit distance problem***
+- Our paper link: https://www.sciencedirect.com/science/article/pii/S0167819122000734
 
 # Algorithms:
 - Serial B&B algorithm: in subdolder *Exact_GED_BB_DF*
@@ -47,3 +51,21 @@ With the following parameters:
 - `log_file`: the path to the log file.
 
 To use cluster, we use the script `ged_test_script.sh` for job array and `ged_test_script_one_job.sh` for one job on slurm scheduler.
+
+
+# Citation
+If you use our work, please cite our paper by using the following bibtex entry:
+```
+@article{DABAH2022102984,
+title = {Efficient parallel branch-and-bound approaches for exact graph edit distance problem},
+journal = {Parallel Computing},
+volume = {114},
+pages = {102984},
+year = {2022},
+issn = {0167-8191},
+doi = {https://doi.org/10.1016/j.parco.2022.102984},
+url = {https://www.sciencedirect.com/science/article/pii/S0167819122000734},
+author = {Adel Dabah and Ibrahim Chegrane and Saïd Yahiaoui and Ahcene Bendjoudi and Nadia Nouali-Taboudjemat},
+keywords = {Parallel branch-and-bound, Graph matching, Graph edit distance}
+}
+```
